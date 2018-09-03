@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23488" started-at="2018-09-01T11:44:48Z" finished-at="2018-09-01T11:45:11Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="23488" started-at="2018-09-01T11:44:48Z" finished-at="2018-09-01T11:45:11Z">
+      <class name="testcases.TestHomePageFail">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.TestHomePageFail@3aeaafa6]" name="setUp" is-config="true" duration-ms="5288" started-at="2018-09-01T11:45:00Z" finished-at="2018-09-01T11:45:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testClicks()[pri:0, instance:testcases.TestHomePageFail@3aeaafa6]" name="testClicks" duration-ms="4430" started-at="2018-09-01T11:45:06Z" finished-at="2018-09-01T11:45:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClicks -->
+        <test-method status="PASS" signature="exit(org.testng.ITestResult)[pri:0, instance:testcases.TestHomePageFail@3aeaafa6]" name="exit" is-config="true" duration-ms="1041" started-at="2018-09-01T11:45:10Z" finished-at="2018-09-01T11:45:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClicks status=SUCCESS method=TestHomePageFail.testClicks()[pri:0, instance:testcases.TestHomePageFail@3aeaafa6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- testcases.TestHomePageFail -->
+      <class name="testcases.TestHomePage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.TestHomePage@63440df3]" name="setUp" is-config="true" duration-ms="6335" started-at="2018-09-01T11:44:48Z" finished-at="2018-09-01T11:44:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testClicks()[pri:0, instance:testcases.TestHomePage@63440df3]" name="testClicks" duration-ms="5307" started-at="2018-09-01T11:44:54Z" finished-at="2018-09-01T11:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClicks -->
+        <test-method status="PASS" signature="exit(org.testng.ITestResult)[pri:0, instance:testcases.TestHomePage@63440df3]" name="exit" is-config="true" duration-ms="1054" started-at="2018-09-01T11:44:59Z" finished-at="2018-09-01T11:45:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClicks status=SUCCESS method=TestHomePage.testClicks()[pri:0, instance:testcases.TestHomePage@63440df3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- testcases.TestHomePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
